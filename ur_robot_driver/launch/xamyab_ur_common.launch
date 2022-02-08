@@ -87,5 +87,5 @@
   </node>
 
   <!-- python script to combine left arm and right arm's joint states-->
-  <node name="dual_arms_combined_jointstates" pkg="ur_robot_driver" type="dual_arms_combined_jointstates.py" output="screen"/>
+  <node name="dual_arms_combined_jointstates" pkg="ur_robot_driver" type="dual_arms_combined_jointstates" output="screen"/>
 </launch>
